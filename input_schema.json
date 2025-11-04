@@ -40,7 +40,7 @@
         "minimum": 1,
         "editor": "number"
       },
-      "last": {
+      "datePosted": {
         "title": "Raw Filter - Posted in the last",
         "type": "string",
         "description": "Choose time range.",
