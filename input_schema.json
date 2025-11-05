@@ -47,14 +47,14 @@
       "enum": ["FULLTIME", "PARTTIME", "CONTRACTOR", "INTERN"],
       "editor": "select"
     },
-      "datePosted": {
-        "title": "Raw Filter - Posted in the last",
-        "type": "string",
-        "description": "Choose time range.",
-        "enum": ["today", "3days", "week", "month"],
-        "default": "month",
-        "editor": "select"
-      }
+       "datePosted": {
+      "title": "Raw Filter - Posted in the last",
+      "type": "string",
+      "description": "Choose time range.",
+      "enum": ["all", "today", "3days", "week", "month"],
+      "default": "all",
+      "editor": "select"
+    }
     },
     "required": ["countryName","locationName", "pagesToFetch"]
   }
